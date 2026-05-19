@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gastro-50: #fcf9f5;
+  --color-gastro-100: #f6efe3;
+  --color-gastro-200: #eadfc5;
+  --color-gastro-300: #ddcca1;
+  --color-gastro-400: #caad70;
+  --color-gastro-500: #b9934c;
+  --color-gastro-600: #a47b3b;
+  --color-gastro-700: #835d32;
+  --color-gastro-800: #6b4d2e;
+  --color-gastro-900: #573f27;
+  --color-gastro-950: #2f2012;
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-50 text-zinc-900 antialiased;
+  }
+}
